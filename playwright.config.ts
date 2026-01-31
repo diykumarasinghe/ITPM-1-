@@ -20,10 +20,10 @@ export default defineConfig({
 
   /* Shared settings for all projects */
   use: {
-    headless: false,                 // ✅ show browser
-    launchOptions: { slowMo: 500 },  // ✅ slow down actions (try 300/500/800)
-    viewport: { width: 1280, height: 720 }, // ✅ stable window size
-    trace: 'on-first-retry',         // ✅ keep trace on retry
+    headless: false,                 //  show browser
+    launchOptions: { slowMo: 500 },  //  slow down actions (try 300/500/800)
+    viewport: { width: 1280, height: 720 }, //  stable window size
+    trace: 'on-first-retry',         //  keep trace on retry
   },
 
   /* Configure projects */

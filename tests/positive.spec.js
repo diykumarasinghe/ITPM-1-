@@ -2,7 +2,7 @@ const { test, expect } = require("@playwright/test");
 const fs = require("fs");
 const path = require("path");
 
-// ✅ Your test scenarios (Pos_Fun should pass, Neg_Fun intentionally wrong expected => fail)
+//  Your test scenarios (Pos_Fun should pass, Neg_Fun intentionally wrong expected => fail)
 const scenarios = [
   { id: "Pos_Fun_0001", name: "Convert a simple sentence", input: "mama gedhara yanavaa.", expected: "මම ගෙදර යනවා.", shouldPass: true },
   { id: "Pos_Fun_0002", name: "request sentence", input: "mata bath oonee.", expected: "මට බත් ඕනේ.", shouldPass: true },
@@ -35,7 +35,7 @@ const scenarios = [
 
   { id: "Pos_UI_0001", name: "Real-time output update", input: "mama gedhara yanavaa", expected: "මම ගෙදර යනවා", shouldPass: true },
 
-  // ❌ Intentionally wrong expected output => these should FAIL in report
+  //  Intentionally wrong expected output => these should FAIL in report
   { id: "Neg_Fun_0001", name: "Joined words stress test", input: "mamagedharayanavaa", expected: "මම ගෙදර යනවා.", shouldPass: false },
   { id: "Neg_Fun_0002", name: "Typo handling", input: "mata bath oone.", expected: "මට බත් ඕනේ.", shouldPass: false },
   { id: "Neg_Fun_0003", name: "Mixed English overload", input: "api meeting eka cancel karala reschedule karamuu.", expected: "අපි meeting එක cancel කරලා reschedule කරමු.", shouldPass: false },
@@ -49,13 +49,13 @@ const scenarios = [
 ];
 
 /* -------------------- GLOBAL SETTINGS FOR DEMO -------------------------- */
-// ✅ typing delay per character (increase for slower demo)
+//  typing delay per character (increase for slower demo)
 const TYPE_DELAY_MS = 120; // try 150 / 200 for slower
 
-// ✅ where output appears on SwiftTranslator page
+//  where output appears on SwiftTranslator page
 const OUTPUT_SELECTOR = "div.whitespace-pre-wrap.overflow-y-auto";
 
-// ✅ screenshots folder
+//  screenshots folder
 const screenshotsDir = path.join(__dirname, "..", "screenshots");
 fs.mkdirSync(screenshotsDir, { recursive: true });
 
