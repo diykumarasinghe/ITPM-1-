@@ -1,0 +1,27 @@
+{
+  "name": "it23770638",
+  "version": "1.0.0",
+  "description": "ITPM Assignment 1 – SwiftTranslator Playwright Automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:excel": "npx playwright test tests/excel.spec.js --headed",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "itpm",
+    "swifttranslator",
+    "testing"
+  ],
+  "author": "IT23770638",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.1.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

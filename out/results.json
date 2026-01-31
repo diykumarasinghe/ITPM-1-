@@ -1,0 +1,352 @@
+[
+  {
+    "tcId": "ROW_107",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 107
+  },
+  {
+    "tcId": "ROW_108",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 108
+  },
+  {
+    "tcId": "Neg_Fun_0004",
+    "tcName": "Slang overload",
+    "inputLengthType": "S",
+    "input": "adoo mokakda bn meeka",
+    "expected": "අඩෝ මොකක්ද බං මේක",
+    "actual": "",
+    "status": "Fail",
+    "row": 109
+  },
+  {
+    "tcId": "ROW_110",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 110
+  },
+  {
+    "tcId": "ROW_111",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 111
+  },
+  {
+    "tcId": "ROW_112",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 112
+  },
+  {
+    "tcId": "Neg_Fun_0005",
+    "tcName": "Excessive punctuation",
+    "inputLengthType": "S",
+    "input": "mokakda????",
+    "expected": "මොකක්ද????",
+    "actual": "",
+    "status": "Fail",
+    "row": 113
+  },
+  {
+    "tcId": "ROW_114",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 114
+  },
+  {
+    "tcId": "ROW_115",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 115
+  },
+  {
+    "tcId": "ROW_116",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 116
+  },
+  {
+    "tcId": "Neg_Fun_0006",
+    "tcName": "Emoji in input",
+    "inputLengthType": "S",
+    "input": "mama gedharayanavaa  😊",
+    "expected": "මම ගෙදර යනවා 😊",
+    "actual": "",
+    "status": "Fail",
+    "row": 117
+  },
+  {
+    "tcId": "ROW_118",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 118
+  },
+  {
+    "tcId": "ROW_119",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 119
+  },
+  {
+    "tcId": "ROW_120",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 120
+  },
+  {
+    "tcId": "Neg_Fun_0007",
+    "tcName": "Random characters",
+    "inputLengthType": "S",
+    "input": "mama @@ gedharayanavaa",
+    "expected": "මම  @@ ගෙදර යනවා",
+    "actual": "",
+    "status": "Fail",
+    "row": 121
+  },
+  {
+    "tcId": "ROW_122",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 122
+  },
+  {
+    "tcId": "ROW_123",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 123
+  },
+  {
+    "tcId": "ROW_124",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 124
+  },
+  {
+    "tcId": "Neg_Fun_0008",
+    "tcName": "Very long joined paragraph",
+    "inputLengthType": "L",
+    "input": "mama iiyee office giyaa namuth traffic thibba nisaa late vunee. manager mata kiyuvvaa report eka 2025-12-25 wenakam submit karanna kiyalaa, habai computer eka crash vuna nisaa eeka hariyata karanna baeri vunee. dhaen api heta Zoom meeting ekak daala thiyenavaa 7.30 AM, eeka WhatsApp group eke share karanna kiyuvvath link eka evune naehae. mata dhanne naehae mehema deval ekka vaeda karanna kohomadha kiyalaa. api mehema deva ganna system eka long, meaningful paragraph ekak hariyata Sinhala convert karannehariyathadha kiyalaa test karanavaa.",
+    "expected": "මම ඉයේ office ගියා, නමුත් traffic තිබ්බ නිසා late උනා. manager මට කිව්වා report එක 2025-12-25 වෙනකම් submit කරන්න කියලා, හැබැයි computer එක crash උනා නිසා ඒක හරියට කරන්න බැරි උනා. දැන් අපි හෙට Zoom meeting එකක් 7.30 AM දාලා තියෙනවා, ඒක WhatsApp group එකේ share කරන්න කිව්වට link එක එවුනේ නැහැ. මට දන්නේ නැහැ මෙහෙම දේවල් එක්ක වැඩ කරන්න කොහොමද කියලා. System එක long meaningful paragraph එකක් නිවැරදිව convert කරන්න ඕන.",
+    "actual": "",
+    "status": "Fail",
+    "row": 125
+  },
+  {
+    "tcId": "ROW_126",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 126
+  },
+  {
+    "tcId": "ROW_127",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 127
+  },
+  {
+    "tcId": "ROW_128",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 128
+  },
+  {
+    "tcId": "ROW_129",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 129
+  },
+  {
+    "tcId": "Neg_Fun_0009",
+    "tcName": "Mixed language type",
+    "inputLengthType": "S",
+    "input": "api Kandy yamu plz",
+    "expected": "අපි Kandy යමු",
+    "actual": "",
+    "status": "Fail",
+    "row": 130
+  },
+  {
+    "tcId": "ROW_131",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 131
+  },
+  {
+    "tcId": "ROW_132",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 132
+  },
+  {
+    "tcId": "ROW_133",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 133
+  },
+  {
+    "tcId": "Neg_Fun_0010",
+    "tcName": "Line break misplacement",
+    "inputLengthType": "S",
+    "input": "api yamu\\n\\nheta",
+    "expected": "අපි යමු    හෙට",
+    "actual": "",
+    "status": "Fail",
+    "row": 134
+  },
+  {
+    "tcId": "ROW_135",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 135
+  },
+  {
+    "tcId": "ROW_136",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 136
+  },
+  {
+    "tcId": "ROW_137",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 137
+  },
+  {
+    "tcId": "Pos_UI_0001",
+    "tcName": "Real-time output update",
+    "inputLengthType": "S",
+    "input": "mama gedhara yanavaa",
+    "expected": "මම ගෙදර යනවා",
+    "actual": "",
+    "status": "Fail",
+    "row": 138
+  },
+  {
+    "tcId": "ROW_139",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 139
+  },
+  {
+    "tcId": "ROW_140",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 140
+  },
+  {
+    "tcId": "ROW_141",
+    "tcName": "",
+    "inputLengthType": "",
+    "input": "",
+    "expected": "",
+    "actual": "",
+    "status": "SKIP",
+    "row": 141
+  }
+]
